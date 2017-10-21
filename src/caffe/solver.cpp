@@ -194,7 +194,7 @@ void Solver<Dtype>::Step(int iters) {
   smoothed_loss_ = 0;
   */
   iteration_timer_.Start();
-  
+
   while (iter_ < stop_iter) {
     // zero-init the params
     net_->ClearParamDiffs();
